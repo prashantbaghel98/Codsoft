@@ -1,0 +1,763 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: #e9e6ed;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 30px;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+}
+
+.btn:hover{
+    transform-style: preserve-3d;
+    transition-duration: 2000ms;
+    padding: 2.5%;
+    transition:ease;
+    background-color: black;
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+
+
+/* Navbar Section */
+
+.navbar-main{
+position: fixed;
+width: 100%;
+z-index: 2;
+height: 50px;
+}
+
+.navbar-brand{
+font-weight: 600;
+}
+
+
+
+.nav-link:hover{
+    color: rgb(129, 3, 3);
+}
+
+
+.navbar-toggler-icon {
+    filter: invert();
+}
+
+
+/* Section-1  */
+
+.section-1-bg{
+    height: 100%;
+    margin-top: -3%;
+    
+    
+}
+
+.section-1-bg img{
+    height: 100vh;
+    width: 100vw;
+  background-color: rgb(72, 72, 210);
+  transform: translate(0px, 100.074px);
+  background-repeat: no-repeat;
+  position:absolute;
+  filter: brightness(.7);
+  z-index: -1;
+  
+}
+
+.section-1-text{
+    margin: 15% 20%;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    
+}
+
+.section-1-text button{
+    background-color: black;
+    color: white;
+}
+
+.section-1-text button:hover{
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+
+}
+
+
+/* Section-2 */
+
+.section-2{
+    height: 60vh;
+    background-color: #e9e6ed;
+
+}
+
+.section-2-left img{
+    width: 150%;
+    margin: -20% 20%;
+
+}
+
+
+.section-2-right{
+ padding: 2% 2%;
+ margin-left: 25%;
+ 
+
+}
+
+.section-2-right h1{
+  font-size: 40px;
+   
+   }
+
+.section-2-right button{
+    font-size: large;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+   }
+
+.section-2-right button:hover{
+    background-color: black;
+    color: white;
+   }
+
+
+
+
+/* Section-3 */
+
+.section-3{
+    margin-top: -1%;
+    height: 100vh;
+    padding: 2% 15%;
+    text-align: center;
+    background-color: #e9e6ed;
+    padding-bottom: 50%;
+}
+
+.card-container{
+    row-gap: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 8%;
+   
+    
+    
+}
+
+.card{
+    text-align: center;
+    height: 260px;
+    width: 200px;
+    background-color: white;
+    padding: 5%;
+    border-radius: 20px;
+   
+}
+
+
+.card img{
+    height: 50px;
+    width: 60px;
+    margin-left: 30%;
+
+}
+
+.card h2{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+.card-container button{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left:15%;
+    padding: 4% 5%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px;
+    color: rgb(171, 171, 171);
+    border: 0px;
+    transition-duration: 500ms;
+    font-size: 15px;
+    height: 7vh;
+    width: 8vw;
+    
+}
+
+.card-container button:hover{
+    padding: 4% 8%;
+    transition-duration: 500ms;
+    background-color: rgb(239, 227, 227);
+    color: black;
+}
+
+
+/* Section-4 */
+
+.section-4{
+
+    padding: 5% 25%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.section-4 button{
+    background-color: black;
+    color: white;
+}
+
+.section-4 button:hover{
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+}
+
+
+
+
+/* Section-5 */
+
+.section-5{
+    padding: 0% 15%;
+    padding-bottom: 15%;
+    background-color: #8624E1;
+    height: 160vh;
+    
+}
+
+
+.section-5-img video{
+height: 100vh;
+width: 70vw;
+margin-top: -15%;
+
+
+}
+
+
+.section-5-container-left{
+    width: 50%;
+    margin-right: 100px;
+}
+
+.section-5-container-left img{
+    height: 80vh;
+    margin-left: -150px;
+}
+
+
+.section-5-container-right{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.section-5 button{
+    background-color: black;
+    color: white;
+}
+
+.section-5 button:hover{
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+}
+
+
+/* section-6 */
+
+.section-6{
+    padding: 10% 10%;
+    margin-top: -200px;
+   
+}
+
+.section-6-container{
+    width: 100%;
+    justify-content:space-between;
+}
+
+.section-6-container-left{
+margin-left: 0%;
+padding-top: 100px;
+
+}
+
+.section-6-container-right img{
+    height: 80vh;
+    /* animation: section-6 1s ease-in; */
+    
+}
+
+.section-6 button{
+    background-color: black;
+    color: white;
+}
+
+.section-6 button:hover{
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+}
+
+
+
+/* section-7 */
+
+.section-7 h2{
+    text-align: center;
+    margin-top: -5%;
+}
+
+.section-7-main-container{
+    justify-content: space-between;
+    padding: 0% 8%;
+}
+
+.section-7-card{
+    height: 70vh;
+    width: 25vw;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.section-7-card:hover{
+    background-color: #8624E1;
+    color: white;
+}
+
+.story-heading{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+/* Section- 8 */
+
+.section-8-bg{
+    
+}
+
+
+.section-8-bg img{
+    margin-top: 2%;
+    height:55vh;
+    width:100%;
+    background-color: rgb(94, 94, 219);
+  transform: translate(0px, 00.0px, 10px );
+  background-repeat: no-repeat;
+  position:absolute;
+  filter: brightness(.7);
+  z-index: -1;
+  text-align:left;
+  object-fit: cover;
+ 
+}
+
+
+.section-8{
+    padding: 5% 30%;
+    text-align: center;
+}
+
+.section-8 h2{
+    font-size: 40px;
+    color: white;
+}
+
+.section-8 form input{
+    font-size: 30px;
+    margin-top: -2%;
+    width: 85%;
+    padding: 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.section-8 form button{
+    font-size: 30px;
+    margin-top: 2%;
+    width: 50%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+.section-8 button:hover{
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: .3%;
+    font-size: 25px;
+}
+
+
+/* Mobile CSS */
+
+
+@media only screen and (max-width: 600px) {
+
+
+    html, body {
+        max-width:100%;
+        overflow-x: hidden;
+    }
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Poppins", sans-serif;
+        background-color: #e9e6ed;
+        width: 100vw;
+    }
+    
+    h1{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    h3{
+        font-size: 18px;
+        font-weight: 400;;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+
+
+
+    nav{
+        width: 100vw;
+    }
+
+    .section-1-bg{
+        width: 100vw;
+    }
+
+
+
+    /* Section-1  */
+
+.section-1-bg img{
+    height: 70%;
+    margin-top: -15%;
+    object-fit: cover;
+    
+    
+}
+
+
+.section-1-text{
+    padding: 1% 2%;
+    margin: 30% 0%;
+    width: 90vw;
+}
+
+.section-1-text h3{
+    width: 100vw;
+    padding: 2%;
+}
+
+.section-1-text h1{
+    width: 100vw;
+    padding: 2%;
+}
+
+.section-1-text p{
+    width: 100vw;
+    padding: 2%;
+}
+
+
+/* Section-2  */
+
+.section-2{
+    display: grid;
+  width: 100vw;
+  height: 70vh;  
+}
+
+.section-2-left img{
+    width:100%;
+    margin:0%;
+    margin-top: -20%;
+    padding: 2%;
+}
+
+
+.section-2-right{
+    margin: 0px;
+    padding: 2%;
+}
+
+.section-2-right button{
+    position: absolute;
+  left: 25%;
+}
+
+
+
+/* Section-3  */
+
+.section-3{
+    height: 2800px;
+}
+
+
+.card-container{
+    grid-template-columns: auto;
+    display: grid;
+    height: 100vh;
+}
+
+
+.card{
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.card img{
+    height: 50px;
+    width: 50px;
+    margin: 1% 37%;
+}
+
+.card button{
+    width: 150px;
+}
+
+/* Section-4 */
+
+.section-4{
+    width: 100vw;
+    padding: 2%;
+}
+
+
+.section-4 h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+/* Section-5 */
+
+
+.section-5{
+    padding: 2%;
+    margin: 20% 0%;
+    height: 110vh;
+
+}
+
+.section-5-container{
+display: grid;
+}
+
+
+.section-5-img video{
+width: 100%;
+margin-top: -100%;
+}
+
+
+.section-5-container{
+    height: 100vh;
+    margin-top: -50%;
+}
+
+.section-5-container-left{
+    height: 50vh;
+    width: 100vw;
+}
+
+
+.section-5-container-left img {
+    padding: 2%;
+    margin: 0px;
+    height: 40vh;
+    width: 100vw;
+    margin-top: -20%;
+}
+
+.section-5-container-right{
+    margin: 0px 0px;
+    padding: 2%;
+    width: 98vw;
+    margin-top: -70%;
+}
+
+
+/* Section-6 */
+
+.section-6{
+    width: 100vw;
+}
+
+.section-6-container-left{
+width: 50vw;
+}
+
+.section-6-container-right img{
+   width: 100vw;
+   height: 65vh;
+
+}
+
+
+/* Section-7 */
+
+.section-7{
+    width: 100vw;
+}
+
+
+.section-7 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-7-main-container{
+
+    display: grid;
+    grid-template-columns: auto;
+    width: 100vw;
+    height: 200vh;
+    gap: 2%;
+}
+
+.section-7-card{
+height: 50vh;
+width: 85vw;
+column-gap: 2%;
+padding: 2%;
+}
+
+
+
+/* Section-8 */
+
+
+.section-8{
+    width:100vw;
+}
+
+.section-8 h2{
+    font-size: 25px;
+    width: 100vw;
+    margin-left: -75%;
+}
+
+.section-8 form {
+    width: 100vw;
+    padding: 2%;
+    margin-left: -75%;
+    
+}
+
+.section-8 form input{
+    font-size: 20px;
+}
+
+.section-8 button {
+    width: 100vw;
+    padding: 2%;
+    font-size: 20px;
+    
+}
+
+.section-8-bg img{
+    height: 40vh;
+}
+
+footer{
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
